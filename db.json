@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Nicholas Fisher",
+      "id": 4
+    },
+    {
+      "name": "Albert Lueilwitz",
+      "id": 5
+    },
+    {
+      "name": "Elisa Sipes",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
