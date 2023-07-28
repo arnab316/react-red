@@ -45,19 +45,18 @@ This project relies on the following npm packages:
 ```
 src
 |-- components
-|   |-- UserList.js
-|   |-- AlbumList.js
-|   |-- PhotoList.js
+|   |-- Button.js
+|   |-- Panel.js
+|   |-- Skeleton.js
 |   |-- AddUserForm.js
-|   |-- AddAlbumForm.js
-|   |-- UserCard.js
-|-- features
-|   |-- users
+|   |-- UsersList.js
+|-- store
+|   |-- slices
 |   |   |-- usersSlice.js
-|   |   |-- usersData.js
-|   |-- albums
-|   |   |-- albumsSlice.js
-|   |   |-- albumsData.js
+|   |-- thunks
+|   |   |-- addUser.js
+|   |   |-- fetchUsers.js
+|   | -- index.js
 |   |-- photos
 |   |   |-- photosSlice.js
 |   |   |-- photosData.js
